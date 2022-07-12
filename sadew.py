@@ -29,7 +29,7 @@ def run():
 
 
 app = tk.Tk()
-app.title("Rocket ver.0.0.0")
+app.title("Rocket ver.0.0.")
 
 app.resizable(width=False, height=False)
 
