@@ -77,7 +77,7 @@ Button1 = tk.Button(text=u'発射(UDP)', width=50)
 Button1.bind("<Button-1>", attack)        # ボタンが押されたときに実行される関数をバインドします
 Button1.pack()
 
-Button2 = tk.Button(text=u'発射（TCP)')
+Button2 = tk.Button(text=u'発射（TCP)', width=50)
 Button2.bind("<Button-2>", tcpattack)
 Button2.pack()
 
